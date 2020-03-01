@@ -10,7 +10,7 @@ class Anagram
   def match(words)
     word_array = @word.split
     words.each do |possible_anagram|
-      
+
       possible_anagram_array = possible_anagram.split
     end
 

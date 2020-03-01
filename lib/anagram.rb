@@ -8,7 +8,7 @@ class Anagram
   end
 
   def match(words)
-    word_array = @word.split
+    word_array = @word.split("")
     matches = []
     words.each do |possible_anagram|
       possible_anagram_array = possible_anagram.split

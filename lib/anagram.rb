@@ -10,8 +10,9 @@ class Anagram
   def match(words)
     word_array = @word.split
     words.each do |possible_anagram|
-
       possible_anagram_array = possible_anagram.split
+      if word_array.sort == possible_anagram_array.sort
+        return true
     end
 
   end

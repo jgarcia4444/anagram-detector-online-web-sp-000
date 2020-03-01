@@ -13,7 +13,8 @@ class Anagram
     words.each do |possible_anagram|
       possible_anagram_array = possible_anagram.split
       if word_array.sort == possible_anagram_array.sort
-        return true
+        matches << possible_anagram
+      end
     end
 
   end

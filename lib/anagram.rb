@@ -16,7 +16,7 @@ class Anagram
         matches << possible_anagram
       end
     end
-
+    matches
   end
 
 end
